@@ -8,13 +8,12 @@ The obtained MEAD dataset is first preprocessed with 'align_face.py':
 ```bash
 python align_face.py
 ```
-## Pair Data
-Paired image frames of the same speaker saying the same passage with different emotions are recorded in aligned_path36.json
+Paired image frames of the same speaker saying the same sentence with different emotions are recorded in aligned_path36.json
 
 ## Training
-
 To train the model, run './trainer/train_asccl.py' with the preprocessed dataset path configured:
-
 ```bash
 python ./trainer/train_asccl.py
 ```
+
+## Integration into SPFEM models
