@@ -19,4 +19,8 @@ python ./trainer/train_asccl.py
 ## Integration into SPFEM models（take NED as example）
 NED：([code](https://github.com/foivospar/NED)).
 
-Integrate ASCCL into NED's training process by following NED's data processing flow and replace train_ned.py with the train.py file in NED's manipulator folder
+Integrate ASCCL into NED's training process: 
+
+1. First follow NED's data preprocessing process to obtain training data and model parameters
+2.
+3. 2. Replace the train.py file in NED's manipulator folder with the train_ned.py file
