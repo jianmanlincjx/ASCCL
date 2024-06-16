@@ -22,5 +22,4 @@ NED：([code](https://github.com/foivospar/NED)).
 Integrate ASCCL into NED's training process: 
 
 1. First follow NED's data preprocessing process to obtain training data and model parameters
-2.
-3. 2. Replace the train.py file in NED's manipulator folder with the train_ned.py file
+2. Replace the train.py file in NED's manipulator folder with the train_ned.py file
