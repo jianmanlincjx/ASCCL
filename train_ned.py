@@ -113,7 +113,7 @@ def compute_g_loss(nets, opt, x_real, y_org, y_trg, z_trg=None, x_ref=None, is_s
         genera_result = visdict_target['shape_detail_images']
         # torchvision.utils.save_image(source_input, "y.png")
         # torchvision.utils.save_image(genera_result, "z.png")
-        loss_stccl = stccl(source_input.reshape(B, T, 3, 224, 224), genera_result.reshape(B, T, 3, 224, 224))[0] * 0.1
+        loss_stccl = stccl(source_input.reshape(B, 3, 224, 224), genera_result.reshape(B, 3, 224, 224))[0] * 0.1
     #####################################################################
 
     # the first param corresponds to the jaw opening (similar to lip distance)
