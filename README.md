@@ -41,3 +41,6 @@ python train.py
 After approximately 50 epochs, you can obtain a checkpoint file. This checkpoint can be used to supervise the training of the SPFEM model.
 
 ## Supervise the training of the SPFEM model
+```bash
+bash run.sh
+```
