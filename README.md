@@ -8,6 +8,9 @@ Speech-preserving facial expression manipulation (SPFEM) aims to modify facial e
 
 ---
 
+![Demo](https://raw.githubusercontent.com/jianmanlincjx/ASCCL/main/output.gif)
+
+
 ## 1. Installation
 
 Create a conda environment and install the requirements.
