@@ -7,6 +7,7 @@ Speech-preserving facial expression manipulation (SPFEM) aims to modify facial e
 </div>
 
 
+From left to right: Source, Reference, NED, NED (Ours)
 ![Demo](https://raw.githubusercontent.com/jianmanlincjx/ASCCL/main/output.gif)
 
 ---
