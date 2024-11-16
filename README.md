@@ -6,6 +6,16 @@ Speech-preserving facial expression manipulation (SPFEM) aims to modify facial e
 
 </div>
 
-### Installation
+---
+
+## 1. Installation
+
 Create a conda environment and install the requirements.
+
+```bash
+conda env create -f environment.yml
+conda activate ASCCL
+```
+Follow the instructions in [DECA](https://github.com/yfeng95/DECA) (under the *Prepare data* section) to acquire the 3 files (`generic_model.pkl`, `deca_model.tar`, `FLAME_albedo_from_BFM.npz`) and place them under `./DECA/data`.
+
 
