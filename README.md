@@ -12,7 +12,8 @@ Create a conda environment and install the requirements.
 
 ```bash
 conda env create -f environment.yml
-conda activate SCMCL
+conda activate ASCCL
+```
 Follow the instructions in [DECA](https://github.com/yfeng95/DECA) (under the *Prepare data* section) to acquire the 3 files (`generic_model.pkl`, `deca_model.tar`, `FLAME_albedo_from_BFM.npz`) and place them under `./DECA/data`.
 
 
