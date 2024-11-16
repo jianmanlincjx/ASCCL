@@ -6,10 +6,10 @@ Speech-preserving facial expression manipulation (SPFEM) aims to modify facial e
 
 </div>
 
----
 
 ![Demo](https://raw.githubusercontent.com/jianmanlincjx/ASCCL/main/output.gif)
 
+---
 
 ## 1. Installation
 
@@ -21,4 +21,21 @@ conda activate ASCCL
 ```
 Follow the instructions in [DECA](https://github.com/yfeng95/DECA) (under the *Prepare data* section) to acquire the 3 files (`generic_model.pkl`, `deca_model.tar`, `FLAME_albedo_from_BFM.npz`) and place them under `./DECA/data`.
 
+## Dataset & checkpoints
+- Download the MEAD dataset from ([here](https://wywu.github.io/projects/MEAD/MEAD.html)) and process the dataset into the following format:
 
+![Processed Dataset Format](https://raw.githubusercontent.com/jianmanlincjx/ASCCL/main/image.png)
+
+- Download the pre-trained weights ([here](https://drive.google.com/file/d/1W_qa9xxXTCXo_44PX_oRDLlJQ3F8uXJk/view?usp=sharing)) (" backbone.pth ") and place it under "spatial_coherent_learning/backbone.pth"
+
+## asccl learning
+Navigate to the `spatial_coherent_learning` directory and run the following command to preprocess the data:
+
+```bash
+python align_face.py
+```
+After preprocessing, execute the following command to begin the ASCCL learning process:
+```bash
+python train.py
+```
+After approximately 50 epochs, you can obtain a checkpoint file. This checkpoint can be used to supervise the training of the SPFEM model.
