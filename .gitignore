@@ -1,0 +1,9 @@
+*.png
+*.jpg
+*.tar
+*.zip
+*.pth
+*.npy
+*.npz
+*.pkl
+*.obj
