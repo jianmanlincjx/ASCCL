@@ -28,19 +28,17 @@ Follow the instructions in [DECA](https://github.com/yfeng95/DECA) (under the *P
 ## Dataset & checkpoints
 Download the MEAD dataset from ([here](https://wywu.github.io/projects/MEAD/MEAD.html)) and process the dataset into the following format:
 
-MEAD [SSH: 255.255.121]
-├── M003
-│   ├── align_img
-│   ├── audio
-│   ├── audio_feature
-│   ├── DECA
-│   └── img
-│       └── angry
-│           └── 001
-│               ├── 000001.png
-│               ├── 000002.png
+├── M003  
+│   ├── align_img  
+│   ├── audio  
+│   ├── audio_feature  
+│   ├── DECA  
+│   └── img  
+│       └── angry  
+│           └── 001  
+│               ├── 000001.png  
+│               ├── 000002.png  
 │               └── 000003.png
-
 
 Download the pre-trained weights ([here](https://drive.google.com/file/d/1W_qa9xxXTCXo_44PX_oRDLlJQ3F8uXJk/view?usp=sharing)) (" backbone.pth ") and place it under "spatial_coherent_learning/backbone.pth"
 
