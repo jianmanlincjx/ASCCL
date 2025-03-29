@@ -36,9 +36,10 @@ Download the MEAD dataset from ([here](https://wywu.github.io/projects/MEAD/MEAD
 │   └── img  
 │       └── angry  
 │           └── 001  
-│               ├── 000001.png  
-│               ├── 000002.png  
-│               └── 000003.png
+│                ├── 000001.png  
+│                ├── 000002.png  
+│                └── 000003.png
+
 
 Download the pre-trained weights ([here](https://drive.google.com/file/d/1W_qa9xxXTCXo_44PX_oRDLlJQ3F8uXJk/view?usp=sharing)) (" backbone.pth ") and place it under "spatial_coherent_learning/backbone.pth"
 
